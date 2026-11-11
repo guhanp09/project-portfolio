@@ -1,0 +1,134 @@
+[
+  {
+    "category": "Analog and mixed-signal",
+    "name": "MillerOTA — CMOS Op-Amp Design & PVT Characterisation",
+    "url": "https://github.com/guhanp09/miller-ota",
+    "description": "SKY130 transistor-level two-stage OTA; DC/AC/transient/noise analysis and 135 PVT/load conditions."
+  },
+  {
+    "category": "Analog and mixed-signal",
+    "name": "LinkScope — CMOS CTLE & Receiver Equalisation",
+    "url": "https://github.com/guhanp09/linkscope-ctle",
+    "description": "Transistor-level receiver CTLE; R/C tuning, 45 PVT conditions and a separate linearized link model."
+  },
+  {
+    "category": "Analog and mixed-signal",
+    "name": "ClockLoop — Charge-Pump PLL Dynamics & Noise Budgeting",
+    "url": "https://github.com/guhanp09/clockloop-pll",
+    "description": "Behavioral phase-domain PLL; 81 sensitivity cases, 15 acquisition scenarios and illustrative jitter budgeting."
+  },
+  {
+    "category": "Compilers and computer systems",
+    "name": "NPUForge Hardware — Compiler Backend & Native Simulation",
+    "url": "https://github.com/guhanp09/npuforge-hardware",
+    "description": "Executable binary images, MLIR/LLVM lowering, memory allocation and native C++ execution."
+  },
+  {
+    "category": "Compilers and computer systems",
+    "name": "NPUForge — ONNX-to-NPU Compiler & Simulator",
+    "url": "https://github.com/guhanp09/npuforge",
+    "description": "Tensor IR, fusion, tiling, compute/DMA simulation and ONNX Runtime numerical checks."
+  },
+  {
+    "category": "Engineering models",
+    "name": "CondenserLab — Condenser CAD & CFD Verification",
+    "url": "https://github.com/guhanp09/condenserlab",
+    "description": "Parametric FreeCAD designs, thermal modelling and OpenFOAM verification."
+  },
+  {
+    "category": "Engineering models",
+    "name": "VibraMount — Vibration Isolation & Optimisation",
+    "url": "https://github.com/guhanp09/vibramount",
+    "description": "Constrained stiffness/damping sweeps and parametric compressor-mount designs."
+  },
+  {
+    "category": "Engineering models",
+    "name": "DrainFlow — Condensate Tray & Drainage Optimisation",
+    "url": "https://github.com/guhanp09/drainflow",
+    "description": "Geometry screening and installation-tilt water-retention analysis."
+  },
+  {
+    "category": "Engineering models",
+    "name": "DustGuard — Condenser Fouling & Thermal Performance",
+    "url": "https://github.com/guhanp09/dustguard",
+    "description": "Assumed fouling scenarios, fan operating points and thermal sensitivity."
+  },
+  {
+    "category": "Data and analysis",
+    "name": "PartsGraph — Component Dependencies & Supply Scenarios",
+    "url": "https://github.com/guhanp09/partsgraph",
+    "description": "BOM dependency graphs and inventory-constrained allocation under simulated disruptions."
+  },
+  {
+    "category": "Data and analysis",
+    "name": "Casebook — Evidence-Grounded Support Investigation",
+    "url": "https://github.com/guhanp09/casebook",
+    "description": "Version-aware ingestion, retrieval evaluation and cited source evidence."
+  },
+  {
+    "category": "Data and analysis",
+    "name": "Credit Risk Model Validation & Stress Testing",
+    "url": "https://github.com/guhanp09/credit-risk-model-validation",
+    "description": "Synthetic borrower data, out-of-time validation, model diagnostics and stress scenarios."
+  },
+  {
+    "category": "Data and analysis",
+    "name": "LossLens — Motor Insurance Pricing & Loss-Cost Modelling",
+    "url": "https://github.com/guhanp09/losslens",
+    "description": "Exposure-aware frequency/severity models on public policy data."
+  },
+  {
+    "category": "Data and analysis",
+    "name": "ReserveWatch — Claims Reserving & Backtesting",
+    "url": "https://github.com/guhanp09/reservewatch",
+    "description": "Reserving methods, historical backtests and uncertainty analysis."
+  },
+  {
+    "category": "Data and analysis",
+    "name": "Revenue Anatomy — Commercial Performance Analysis",
+    "url": "https://github.com/guhanp09/revenue-anatomy",
+    "description": "Retail transaction SQL/Python analysis and Excel reports."
+  },
+  {
+    "category": "Data and analysis",
+    "name": "CashCycle — Receivables & Cash Forecasting",
+    "url": "https://github.com/guhanp09/cashcycle",
+    "description": "Simulated cash forecasts, receivables ageing and formula-driven Excel models."
+  },
+  {
+    "category": "Software and products",
+    "name": "ByteSized Careers — Hiring Marketplace",
+    "url": "https://github.com/guhanp09/bytesized-careers",
+    "description": "Pre-launch full-stack marketplace with application, messaging and administration workflows."
+  },
+  {
+    "category": "Software and products",
+    "name": "ByteSized Careers — Early Access Waitlist",
+    "url": "https://github.com/guhanp09/bytesized-careers-waitlist",
+    "description": "Resumable onboarding, verified email and protected administration."
+  },
+  {
+    "category": "Software and products",
+    "name": "Online Dictionary Admin",
+    "url": "https://github.com/guhanp09/online-dictionary-admin",
+    "description": "Android client, FastAPI backend, MySQL persistence and automated checks."
+  },
+  {
+    "category": "Software and products",
+    "name": "Diagonal Grid Puzzle",
+    "url": "https://github.com/guhanp09/diagonal-grid-puzzle-2021",
+    "description": "Unity puzzle with independently tested diagonal-reachability rules; reconstructed source is documented."
+  },
+  {
+    "category": "Writing and visual communication",
+    "name": "Over the Fence — Illustrated Mathematics Book",
+    "url": "https://github.com/guhanp09/over-the-fence",
+    "description": "Existing 121-page book, chapter source and programmatic illustration/publishing pipeline."
+  },
+  {
+    "category": "Writing and visual communication",
+    "name": "Indian Finance Academy — Programmatic Films",
+    "url": "https://github.com/guhanp09/indian-finance-academy-films",
+    "description": "Public source, storyboards and production assets for selected Remotion films."
+  }
+]
