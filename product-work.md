@@ -10,7 +10,7 @@ The search prototype and three analytical tools below were implemented in **Nove
 
 **Built:** a responsive English, Bengali and Telugu search prototype with source links, an explicit language picker, compact/expanded previews and local retrieval over 3,931 passages from Google Research's TyDi QA data.
 
-**Measured:** on a derived closed-corpus retrieval task with 1,222 held-out queries, validation-selected word/character ranking improved language-balanced Recall@5 from **76.5% to 86.7%**. Compact previews reduced mean paired JSON response bytes by **39.8%**, preserving ranked links.
+**Measured:** on a derived closed-corpus retrieval task with 1,222 held-out queries, validation-selected word/character ranking improved language-balanced Recall@5 from **76.5% to 86.3%**. Compact previews reduced mean paired JSON response bytes by **39.8%**, preserving ranked links.
 
 **Decision:** move toward a moderated pilot and prioritize Telugu's remaining quality gap. Native-reader comprehension and actual mobile performance are unmeasured. These are offline retrieval and payload results, not an official TyDi QA score or production user outcomes. The project is independent and has no Google affiliation.
 
