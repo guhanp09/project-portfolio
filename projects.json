@@ -1,6 +1,12 @@
 [
   {
     "category": "Product development and applied ML",
+    "name": "OpenAtlas — Multilingual Search & Launch Evaluation",
+    "url": "https://github.com/guhanp09/openatlas",
+    "description": "English/Bengali/Telugu search prototype; 1,222 held-out queries, language-level quality checks and measured data-saver payloads on a derived TyDi QA retrieval task."
+  },
+  {
+    "category": "Product development and applied ML",
     "name": "FirstMile — Onboarding Experiments & Launch Guardrails",
     "url": "https://github.com/guhanp09/firstmile",
     "description": "CSV funnel analysis, fixed-horizon experiments, allocation checks and error guardrails, demonstrated with synthetic events."

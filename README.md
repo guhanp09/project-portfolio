@@ -6,6 +6,7 @@ Runnable source, models, tests and documentation. Each repository describes its 
 
 **[Read the product-work portfolio](product-work.md)** for the problems, implementation choices, measured evidence and next decisions behind the work.
 
+- **[OpenAtlas — Multilingual Search & Launch Evaluation](https://github.com/guhanp09/openatlas)** — English/Bengali/Telugu search prototype; 1,222 held-out queries, language-level quality checks and measured data-saver payloads on a derived TyDi QA retrieval task.
 - **[FirstMile — Onboarding Experiments & Launch Guardrails](https://github.com/guhanp09/firstmile)** — CSV funnel analysis, fixed-horizon experiments, allocation checks and error guardrails, demonstrated with synthetic events.
 - **[SignalDesk — Evaluated ML Support Routing](https://github.com/guhanp09/signaldesk)** — 77-intent classifier with validation-selected review thresholds; 92.0% accepted-query precision at 90.8% coverage on the public BANKING77 test set.
 - **[MarketLane — Marketplace Launch & Unit Economics](https://github.com/guhanp09/marketlane)** — 268 simulation runs comparing launch breadth, pricing and matching policies; transaction ledgers and explicit economic assumptions.

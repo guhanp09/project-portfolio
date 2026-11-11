@@ -2,7 +2,19 @@
 
 I build products and analytical tools that make a decision inspectable: what problem is being addressed, what was implemented, what the evidence supports, and what needs to happen next. My work spans a creator hiring marketplace, customer-support tools, experimentation and technical communication.
 
-The three new analytical tools below were implemented in **November 2026**. Their results come from a public benchmark or explicitly synthetic scenarios. The repositories include runnable code, tests, product briefs, decision records and committed reports.
+The search prototype and three analytical tools below were implemented in **November 2026**. Their results come from public data or explicitly synthetic scenarios. The repositories include runnable code, tests, product briefs, decision records and committed reports.
+
+## Multilingual information access: OpenAtlas
+
+**Problem:** a reader needs useful sources in a chosen language, enough context to judge them, and control over preview size.
+
+**Built:** a responsive English, Bengali and Telugu search prototype with source links, an explicit language picker, compact/expanded previews and local retrieval over 3,931 passages from Google Research's TyDi QA data.
+
+**Measured:** on a derived closed-corpus retrieval task with 1,222 held-out queries, validation-selected word/character ranking improved language-balanced Recall@5 from **76.5% to 86.7%**. Compact previews reduced mean paired JSON response bytes by **39.8%**, preserving ranked links.
+
+**Decision:** move toward a moderated pilot and prioritize Telugu's remaining quality gap. Native-reader comprehension and actual mobile performance are unmeasured. These are offline retrieval and payload results, not an official TyDi QA score or production user outcomes. The project is independent and has no Google affiliation.
+
+[Code and prototype setup](https://github.com/guhanp09/openatlas) · [Evaluation](https://github.com/guhanp09/openatlas/blob/main/reports/decision.md) · [Product brief](https://github.com/guhanp09/openatlas/blob/main/docs/product-brief.md) · [Research and launch plan](https://github.com/guhanp09/openatlas/blob/main/docs/launch-plan.md)
 
 ## A working product: ByteSized Careers
 
