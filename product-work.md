@@ -12,7 +12,9 @@ The search prototype and three analytical tools below were implemented in **Nove
 
 **Decisions:** rebuilt a slow opening around a visible price paradox, simplified an unreadable phone-size visual, corrected an animation that changed the meaning, and developed three distinct title-and-thumbnail options for a medicine-packaging film.
 
-**Product evidence:** audience ownership, problem framing, hypothesis development, prioritization, technical execution and documented iteration. Production reviews support the design decisions; the profile snapshot establishes an audience. Neither establishes a measured retention lift or the causal effect of a revision on growth.
+**Execution:** owned the workflow from research and creative briefs to publishing. Used Claude to develop reusable React/TypeScript components and a Remotion production pipeline with narration-based timing and automated QA. A saved branding-update report compares 11,574 frames of the lossless master, preserving audio and all native pixel samples outside the specified text regions.
+
+**Product evidence:** audience ownership, requirements definition, hypothesis development, prioritization, AI-assisted execution, release validation and technical communication. Production reviews support the design decisions; the profile snapshot establishes an audience. Neither establishes a measured retention lift or the causal effect of a revision on growth.
 
 [Instagram](https://www.instagram.com/indianconsumeracademy/) · [Case study](case-studies/indian-consumer-academy.md) · [One-page PDF](case-studies/indian-consumer-academy.pdf) · [Evidence](case-studies/evidence/consumer-education-decisions.md)
 

@@ -1,0 +1,18 @@
+{
+  "source_record": "out/pills/consumer-branding/verification.json",
+  "source_record_sha256": "0fe30abeb3a5505042e6b08307ea7f982c38207867e17d0759b5a61ace703081",
+  "scope": "Existing production verification of a branding-only change to the lossless master. The pixel-preservation result does not describe the compressed delivery.",
+  "method": "All frames compared in native YUV; audio packets and timing compared.",
+  "frames": 11574,
+  "fps": 60,
+  "seconds": 192.9,
+  "verified": true,
+  "all_frames_compared": 11574,
+  "native_samples_changed_outside_lettering": 0,
+  "maximum_difference_outside_lettering": 0,
+  "audio_packets_identical": true,
+  "audio_timing_identical": true,
+  "decoded_video_matches_patch_exactly": true,
+  "source_sha256": "6f2e90e5b8ac471e08db15fa51ac5e6be1584f8fe72352dfcee3ef7e8d8e10fb",
+  "output_sha256": "9f5f10ca58f6415ce8e7c4f2801c1580d2d62833796135b0696bd470c3c9b767"
+}

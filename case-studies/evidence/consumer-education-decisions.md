@@ -8,8 +8,13 @@ Prepared 11 November 2026 from the creator's local production repository. This i
 | `DOCS/candy/deviations.md`, D4 | Keeping the price fragment on the price plate after review found that detaching it made the price appear to revert. | A correctness constraint influencing the design. |
 | `DOCS/candy/deviations.md`, rebuild addendum D6 | Replacing a subtle transaction path that was unreadable at phone size with recognizable coins and an empty change slot. | Prioritizing mobile comprehension over visual complexity. |
 | `DOCS/pills/wide/packaging/index.html`, three package boards | Comparison, hidden-reason and unexpected-tie title/thumbnail options; 320 px and 168 px previews; proposed watch-time-based comparison. | Distinct content hypotheses, alternatives and a measurement plan. No executed-test result is recorded there. |
+| `README.md`, `package.json`, `src/design/scene.tsx` | React/TypeScript/Remotion implementation, reusable visual components and scene timing derived from measured narration beats. | Technical execution and an automated content-production workflow. |
+| `DOCS/pills/film-assembly/README.md` | Assembly of approved segments, measured transitions, caption correction and delivery records. | Turning approved specifications into reviewable, validated output. |
+| `tools/pills/consumer-branding/README.md` and the saved `verification.json` | A branding-only change checked across 11,574 frames of the lossless master; unchanged native samples outside the lettering regions and preserved audio packets/timing. | Defined change scope and release-quality validation. The lossless preservation result does not apply to subsequent lossy compression. |
 
 The source records include proposed, superseded and approved production choices. The case study describes documented iterations; it does not assert that each intermediate version was published to Instagram.
+
+The creator identified Claude as a development assistant. The implementation and saved verification report substantiate the workflow; no productivity multiplier or independent human team is claimed. [Curated verification summary](consumer-branding-qa-summary.json).
 
 ## Public audience observation
 
