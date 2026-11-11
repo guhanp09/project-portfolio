@@ -2,6 +2,14 @@
 
 Runnable source, models, tests and documentation. Each repository describes its own scope and distinguishes simulations, synthetic data and reconstructed source from measured or original artifacts.
 
+## Product development and applied ML
+
+**[Read the product-work portfolio](product-work.md)** for the problems, implementation choices, measured evidence and next decisions behind the work.
+
+- **[FirstMile — Onboarding Experiments & Launch Guardrails](https://github.com/guhanp09/firstmile)** — CSV funnel analysis, fixed-horizon experiments, allocation checks and error guardrails, demonstrated with synthetic events.
+- **[SignalDesk — Evaluated ML Support Routing](https://github.com/guhanp09/signaldesk)** — 77-intent classifier with validation-selected review thresholds; 92.0% accepted-query precision at 90.8% coverage on the public BANKING77 test set.
+- **[MarketLane — Marketplace Launch & Unit Economics](https://github.com/guhanp09/marketlane)** — 268 simulation runs comparing launch breadth, pricing and matching policies; transaction ledgers and explicit economic assumptions.
+
 ## Analog and mixed-signal
 
 - **[MillerOTA — CMOS Op-Amp Design & PVT Characterisation](https://github.com/guhanp09/miller-ota)** — SKY130 transistor-level two-stage OTA; DC/AC/transient/noise analysis and 135 PVT/load conditions.

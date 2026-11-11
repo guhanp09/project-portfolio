@@ -1,5 +1,23 @@
 [
   {
+    "category": "Product development and applied ML",
+    "name": "FirstMile — Onboarding Experiments & Launch Guardrails",
+    "url": "https://github.com/guhanp09/firstmile",
+    "description": "CSV funnel analysis, fixed-horizon experiments, allocation checks and error guardrails, demonstrated with synthetic events."
+  },
+  {
+    "category": "Product development and applied ML",
+    "name": "SignalDesk — Evaluated ML Support Routing",
+    "url": "https://github.com/guhanp09/signaldesk",
+    "description": "77-intent classifier with validation-selected review thresholds; 92.0% accepted-query precision at 90.8% coverage on the public BANKING77 test set."
+  },
+  {
+    "category": "Product development and applied ML",
+    "name": "MarketLane — Marketplace Launch & Unit Economics",
+    "url": "https://github.com/guhanp09/marketlane",
+    "description": "268 simulation runs comparing launch breadth, pricing and matching policies; transaction ledgers and explicit economic assumptions."
+  },
+  {
     "category": "Analog and mixed-signal",
     "name": "MillerOTA — CMOS Op-Amp Design & PVT Characterisation",
     "url": "https://github.com/guhanp09/miller-ota",
