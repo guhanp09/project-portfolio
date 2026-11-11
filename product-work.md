@@ -1,8 +1,20 @@
 # Guhan Purushothaman — Product Work
 
-I build products and analytical tools that make a decision inspectable: what problem is being addressed, what was implemented, what the evidence supports, and what needs to happen next. My work spans a creator hiring marketplace, customer-support tools, experimentation and technical communication.
+I build products and analytical tools that make a decision inspectable: what problem is being addressed, what was implemented, what the evidence supports, and what needs to happen next. My work spans a consumer-education channel, a creator hiring marketplace, customer-support tools, experimentation and technical communication.
 
 The search prototype and three analytical tools below were implemented in **November 2026**. Their results come from public data or explicitly synthetic scenarios. The repositories include runnable code, tests, product briefs, decision records and committed reports.
+
+## A real audience: Indian Consumer Academy
+
+**Audience:** the public Instagram profile lists **6,120 followers and 4 posts**, observed on 11 November 2026.
+
+**Problem:** make the economics and supply-chain mechanisms behind familiar consumer questions understandable through visual explainers.
+
+**Decisions:** rebuilt a slow opening around a visible price paradox, simplified an unreadable phone-size visual, corrected an animation that changed the meaning, and developed three distinct title-and-thumbnail options for a medicine-packaging film.
+
+**Product evidence:** audience ownership, problem framing, hypothesis development, prioritization, technical execution and documented iteration. Production reviews support the design decisions; the profile snapshot establishes an audience. Neither establishes a measured retention lift or the causal effect of a revision on growth.
+
+[Instagram](https://www.instagram.com/indianconsumeracademy/) · [Case study](case-studies/indian-consumer-academy.md) · [One-page PDF](case-studies/indian-consumer-academy.pdf) · [Evidence](case-studies/evidence/consumer-education-decisions.md)
 
 ## Multilingual information access: OpenAtlas
 
