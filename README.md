@@ -29,6 +29,9 @@ Runnable source, models, tests and documentation. Each repository describes its 
 - **[DustGuard — Condenser Fouling & Thermal Performance](https://github.com/guhanp09/dustguard)** — Assumed fouling scenarios, fan operating points and thermal sensitivity.
 ## Data and analysis
 
+**[Read the analytics portfolio](analytics-work.md)** for SQL methods, commercial reviews, publisher metrics and experiment decisions.
+
+- **[SlotLedger — Publisher Yield & Market Reporting](https://github.com/guhanp09/slot-ledger)** — SQL reconciliation of 504,310 synthetic event deliveries and 140,000 ad requests; four-market yield reports, fixed-mix analysis and a sourced reporting-workflow comparison.
 - **[PartsGraph — Component Dependencies & Supply Scenarios](https://github.com/guhanp09/partsgraph)** — BOM dependency graphs and inventory-constrained allocation under simulated disruptions.
 - **[Casebook — Evidence-Grounded Support Investigation](https://github.com/guhanp09/casebook)** — Version-aware ingestion, retrieval evaluation and cited source evidence.
 - **[Credit Risk Model Validation & Stress Testing](https://github.com/guhanp09/credit-risk-model-validation)** — Synthetic borrower data, out-of-time validation, model diagnostics and stress scenarios.
