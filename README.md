@@ -21,12 +21,21 @@ Runnable source, models, tests and documentation. Each repository describes its 
 
 - **[NPUForge Hardware — Compiler Backend & Native Simulation](https://github.com/guhanp09/npuforge-hardware)** — Executable binary images, MLIR/LLVM lowering, memory allocation and native C++ execution.
 - **[NPUForge — ONNX-to-NPU Compiler & Simulator](https://github.com/guhanp09/npuforge)** — Tensor IR, fusion, tiling, compute/DMA simulation and ONNX Runtime numerical checks.
-## Engineering models
+## Engineering and reliability
+
+**[Read the engineering and reliability portfolio](engineering-reliability-work.md)** for aircraft report analysis, configuration review, mechanical verification and electrical test evidence.
+
+- **[DefectReview — Aircraft Reliability Analysis](https://github.com/guhanp09/defect-review)** — SQL analysis of 67,649 accepted public FAA reports; source/date checks, JASC/ATA chapter review and investigation queues. Separate synthetic exposure examples demonstrate rates, MTBUR and uncertainty.
+- **[Effectivity Desk — Configuration & AD/SB Review](https://github.com/guhanp09/effectivity-desk)** — Sourced FAA AD study, three-state effectivity rules, revision/configuration evidence and synthetic work-scope, cost and warranty cases.
+- **[PackBench — Cell Data & Telemetry Verification](https://github.com/guhanp09/packbench)** — Public CALCE measurement reduction, separate-run voltage-model evaluation and C packet/fault tests; target compilation is distinguished from hardware execution.
 
 - **[CondenserLab — Condenser CAD & CFD Verification](https://github.com/guhanp09/condenserlab)** — Parametric FreeCAD designs, thermal modelling and OpenFOAM verification.
 - **[VibraMount — Vibration Isolation & Optimisation](https://github.com/guhanp09/vibramount)** — Constrained stiffness/damping sweeps and parametric compressor-mount designs.
 - **[DrainFlow — Condensate Tray & Drainage Optimisation](https://github.com/guhanp09/drainflow)** — Geometry screening and installation-tilt water-retention analysis.
 - **[DustGuard — Condenser Fouling & Thermal Performance](https://github.com/guhanp09/dustguard)** — Assumed fouling scenarios, fan operating points and thermal sensitivity.
+- **[Ground Effect Lab](https://github.com/guhanp09/ground-effect-lab)** — Lifting-line and mission energy calculations with explicit ground-effect assumptions.
+- **[Laminate Bench](https://github.com/guhanp09/laminate-bench)** — Composite laminate/beam calculations, layup screening and a proposed coupon fixture; no fabricated coupons.
+- **[Low Altitude Guard](https://github.com/guhanp09/low-altitude-guard)** — C++ clearance-control prototype, wave/sensor-fault simulation and retained failure cases.
 ## Data and analysis
 
 **[Read the analytics portfolio](analytics-work.md)** for SQL methods, commercial reviews, publisher metrics and experiment decisions.
