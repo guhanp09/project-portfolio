@@ -28,12 +28,13 @@ invented scenarios and work that still requires physical testing or authorized r
 
 - Reviewed the public FAA AD 2026-09-01 and its retained/new action scopes, reference-date
   exceptions, location-specific part-history condition and authority boundaries.
+- Reviewed captured manufacturer bulletin scope in a focused Piper SB 1390 case, with serial-boundary and group-transition checks.
 - Implemented model/serial/part/position rules with MATCH, NO_MATCH and UNKNOWN states.
   Nine synthetic configurations exercise missing data, incomplete inventories and
   component correlation; source/configuration changes invalidate saved reviews.
 - Compared line/base windows, cost-benefit and warranty evidence in separate synthetic
   scenarios. A cheaper late window is excluded; missing quotes block selection.
-- Forty-one tests and source/artifact checks. Missing proprietary incorporated bulletin
+- Forty-seven tests and source/artifact checks. Missing proprietary incorporated bulletin
   evidence is not replaced with invented manufacturer effectivity or due dates.
 
 ## CondenserLab — Mechanical design and CFD verification
