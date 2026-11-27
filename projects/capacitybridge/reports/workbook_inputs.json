@@ -1,0 +1,384 @@
+{
+  "scenario": "Peak volume with 12% planning reserve",
+  "wave_hours": 4.0,
+  "productive_share": 0.85,
+  "throughput_rates": {
+    "pick": 35.0,
+    "pack": 28.0,
+    "sort": 55.0
+  },
+  "hourly_wages": {
+    "pick": 135.0,
+    "pack": 130.0,
+    "sort": 115.0
+  },
+  "delivery_costs": {
+    "internal": 18.0,
+    "3pl": 30.0
+  },
+  "reservation_cost": 2.0,
+  "fc_plan": [
+    {
+      "fc": "CHE-1",
+      "city": "Chennai",
+      "wave": "AM",
+      "productivity": 1.03,
+      "assigned_parcels": 1540,
+      "pick_heads": 13,
+      "pack_heads": 16,
+      "sort_heads": 8
+    },
+    {
+      "fc": "CHE-1",
+      "city": "Chennai",
+      "wave": "PM",
+      "productivity": 1.03,
+      "assigned_parcels": 1335,
+      "pick_heads": 11,
+      "pack_heads": 14,
+      "sort_heads": 7
+    },
+    {
+      "fc": "CHE-2",
+      "city": "Chennai",
+      "wave": "AM",
+      "productivity": 0.9888,
+      "assigned_parcels": 907,
+      "pick_heads": 8,
+      "pack_heads": 10,
+      "sort_heads": 5
+    },
+    {
+      "fc": "CHE-2",
+      "city": "Chennai",
+      "wave": "PM",
+      "productivity": 0.9888,
+      "assigned_parcels": 924,
+      "pick_heads": 8,
+      "pack_heads": 10,
+      "sort_heads": 5
+    },
+    {
+      "fc": "BEN-1",
+      "city": "Bengaluru",
+      "wave": "AM",
+      "productivity": 0.98,
+      "assigned_parcels": 890,
+      "pick_heads": 8,
+      "pack_heads": 10,
+      "sort_heads": 5
+    },
+    {
+      "fc": "BEN-1",
+      "city": "Bengaluru",
+      "wave": "PM",
+      "productivity": 0.98,
+      "assigned_parcels": 1282,
+      "pick_heads": 11,
+      "pack_heads": 14,
+      "sort_heads": 7
+    },
+    {
+      "fc": "BEN-2",
+      "city": "Bengaluru",
+      "wave": "AM",
+      "productivity": 0.9408,
+      "assigned_parcels": 1231,
+      "pick_heads": 11,
+      "pack_heads": 14,
+      "sort_heads": 7
+    },
+    {
+      "fc": "BEN-2",
+      "city": "Bengaluru",
+      "wave": "PM",
+      "productivity": 0.9408,
+      "assigned_parcels": 671,
+      "pick_heads": 6,
+      "pack_heads": 8,
+      "sort_heads": 4
+    },
+    {
+      "fc": "HYD-1",
+      "city": "Hyderabad",
+      "wave": "AM",
+      "productivity": 1.0,
+      "assigned_parcels": 1190,
+      "pick_heads": 10,
+      "pack_heads": 13,
+      "sort_heads": 7
+    },
+    {
+      "fc": "HYD-1",
+      "city": "Hyderabad",
+      "wave": "PM",
+      "productivity": 1.0,
+      "assigned_parcels": 935,
+      "pick_heads": 8,
+      "pack_heads": 10,
+      "sort_heads": 5
+    },
+    {
+      "fc": "HYD-2",
+      "city": "Hyderabad",
+      "wave": "AM",
+      "productivity": 0.96,
+      "assigned_parcels": 685,
+      "pick_heads": 6,
+      "pack_heads": 8,
+      "sort_heads": 4
+    },
+    {
+      "fc": "HYD-2",
+      "city": "Hyderabad",
+      "wave": "PM",
+      "productivity": 0.96,
+      "assigned_parcels": 798,
+      "pick_heads": 7,
+      "pack_heads": 9,
+      "sort_heads": 5
+    }
+  ],
+  "carrier_plan": [
+    {
+      "fc": "CHE-1",
+      "city": "Chennai",
+      "wave": "AM",
+      "mode": "internal",
+      "booked": 750,
+      "d0": 610,
+      "regular": 140,
+      "d0_eligible": true
+    },
+    {
+      "fc": "CHE-1",
+      "city": "Chennai",
+      "wave": "AM",
+      "mode": "3pl",
+      "booked": 790,
+      "d0": 0,
+      "regular": 790,
+      "d0_eligible": true
+    },
+    {
+      "fc": "CHE-1",
+      "city": "Chennai",
+      "wave": "PM",
+      "mode": "internal",
+      "booked": 750,
+      "d0": 750,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "CHE-1",
+      "city": "Chennai",
+      "wave": "PM",
+      "mode": "3pl",
+      "booked": 585,
+      "d0": 0,
+      "regular": 585,
+      "d0_eligible": false
+    },
+    {
+      "fc": "CHE-2",
+      "city": "Chennai",
+      "wave": "AM",
+      "mode": "internal",
+      "booked": 690,
+      "d0": 690,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "CHE-2",
+      "city": "Chennai",
+      "wave": "AM",
+      "mode": "3pl",
+      "booked": 217,
+      "d0": 217,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "CHE-2",
+      "city": "Chennai",
+      "wave": "PM",
+      "mode": "internal",
+      "booked": 690,
+      "d0": 651,
+      "regular": 39,
+      "d0_eligible": true
+    },
+    {
+      "fc": "CHE-2",
+      "city": "Chennai",
+      "wave": "PM",
+      "mode": "3pl",
+      "booked": 234,
+      "d0": 0,
+      "regular": 234,
+      "d0_eligible": false
+    },
+    {
+      "fc": "BEN-1",
+      "city": "Bengaluru",
+      "wave": "AM",
+      "mode": "internal",
+      "booked": 750,
+      "d0": 750,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "BEN-1",
+      "city": "Bengaluru",
+      "wave": "AM",
+      "mode": "3pl",
+      "booked": 140,
+      "d0": 0,
+      "regular": 140,
+      "d0_eligible": true
+    },
+    {
+      "fc": "BEN-1",
+      "city": "Bengaluru",
+      "wave": "PM",
+      "mode": "internal",
+      "booked": 750,
+      "d0": 750,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "BEN-1",
+      "city": "Bengaluru",
+      "wave": "PM",
+      "mode": "3pl",
+      "booked": 532,
+      "d0": 0,
+      "regular": 532,
+      "d0_eligible": false
+    },
+    {
+      "fc": "BEN-2",
+      "city": "Bengaluru",
+      "wave": "AM",
+      "mode": "internal",
+      "booked": 690,
+      "d0": 24,
+      "regular": 666,
+      "d0_eligible": true
+    },
+    {
+      "fc": "BEN-2",
+      "city": "Bengaluru",
+      "wave": "AM",
+      "mode": "3pl",
+      "booked": 541,
+      "d0": 541,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "BEN-2",
+      "city": "Bengaluru",
+      "wave": "PM",
+      "mode": "internal",
+      "booked": 671,
+      "d0": 463,
+      "regular": 208,
+      "d0_eligible": true
+    },
+    {
+      "fc": "BEN-2",
+      "city": "Bengaluru",
+      "wave": "PM",
+      "mode": "3pl",
+      "booked": 0,
+      "d0": 0,
+      "regular": 0,
+      "d0_eligible": false
+    },
+    {
+      "fc": "HYD-1",
+      "city": "Hyderabad",
+      "wave": "AM",
+      "mode": "internal",
+      "booked": 750,
+      "d0": 750,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "HYD-1",
+      "city": "Hyderabad",
+      "wave": "AM",
+      "mode": "3pl",
+      "booked": 440,
+      "d0": 413,
+      "regular": 27,
+      "d0_eligible": true
+    },
+    {
+      "fc": "HYD-1",
+      "city": "Hyderabad",
+      "wave": "PM",
+      "mode": "internal",
+      "booked": 750,
+      "d0": 385,
+      "regular": 365,
+      "d0_eligible": true
+    },
+    {
+      "fc": "HYD-1",
+      "city": "Hyderabad",
+      "wave": "PM",
+      "mode": "3pl",
+      "booked": 185,
+      "d0": 0,
+      "regular": 185,
+      "d0_eligible": false
+    },
+    {
+      "fc": "HYD-2",
+      "city": "Hyderabad",
+      "wave": "AM",
+      "mode": "internal",
+      "booked": 685,
+      "d0": 0,
+      "regular": 685,
+      "d0_eligible": true
+    },
+    {
+      "fc": "HYD-2",
+      "city": "Hyderabad",
+      "wave": "AM",
+      "mode": "3pl",
+      "booked": 0,
+      "d0": 0,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "HYD-2",
+      "city": "Hyderabad",
+      "wave": "PM",
+      "mode": "internal",
+      "booked": 690,
+      "d0": 690,
+      "regular": 0,
+      "d0_eligible": true
+    },
+    {
+      "fc": "HYD-2",
+      "city": "Hyderabad",
+      "wave": "PM",
+      "mode": "3pl",
+      "booked": 108,
+      "d0": 0,
+      "regular": 108,
+      "d0_eligible": false
+    }
+  ]
+}

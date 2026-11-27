@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capacitybridge"
+version = "0.1.0"
+description = "Reproducible FC capacity and same-day promise planning study"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.0"]
+
+[project.scripts]
+capacitybridge = "capacitybridge.planner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

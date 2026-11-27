@@ -1,5 +1,11 @@
 [
   {
+    "category": "Supply chain and business planning",
+    "name": "CapacityBridge — FC Capacity and D0 Planning",
+    "url": "https://github.com/guhanp09/project-portfolio/tree/main/projects/capacitybridge",
+    "description": "Six-FC staffing and internal/3PL allocation under D0 cutoffs; 120 synthetic demand/disruption cases, 240 policy runs, SQL reconciliation and an Excel capacity review. Modelled service/cost trade-offs are distinguished from actual operations."
+  },
+  {
     "category": "Product development and applied ML",
     "name": "OpenAtlas — Multilingual Search & Launch Evaluation",
     "url": "https://github.com/guhanp09/openatlas",

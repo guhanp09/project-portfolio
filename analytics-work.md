@@ -2,6 +2,16 @@
 
 Working analyses with inspectable SQL, input provenance, report outputs and explicit limits on what the data can establish.
 
+## CapacityBridge — FC capacity and D0 planning
+
+[Source and results](projects/capacitybridge) · [Planning review](projects/capacitybridge/reports/planning_review.pdf) · [Excel workbook](projects/capacitybridge/reports/capacity_plan.xlsx) · [SQL reconciliation](projects/capacitybridge/src/capacitybridge/review.sql) · [Planning portfolio](planning-work.md)
+
+Converts BAU and peak-event parcel forecasts into staffing for six hypothetical fulfilment centres and internal/third-party carrier reservations. Integer optimisation enforces picking, packing, sorting and carrier capacities. Dispatch and transit assumptions exclude routes that miss the D0 same-day cutoff. Resources are frozen before realised demand is evaluated.
+
+Across 120 synthetic demand and disruption cases evaluated under two policies, a 12% reserve increases modelled overall service attainment from 86.6% to 94.8%, with 12.3% higher operating cost. D0 attainment remains about 99.1% under both policies. SQL reconciles demand to shipments and misses across all 2,880 case/policy/city/wave/promise groups. Thirteen correctness tests and a formula-driven Excel review accompany the results.
+
+These are conditional simulation outcomes, not real FC-network performance, actual savings or partner agreements. The [methodology](projects/capacitybridge/docs/methodology.md) defines the aggregate wave model, shared seed streams and inventory assumptions.
+
 ## SlotLedger — Publisher yield review
 
 [Source and SQL](https://github.com/guhanp09/slot-ledger) · [Interactive review](https://guhanp09.github.io/slot-ledger/) · [Decision memo](https://github.com/guhanp09/slot-ledger/blob/main/reports/decision.md) · [Reporting workflow research](https://github.com/guhanp09/slot-ledger/blob/main/docs/landscape.md)

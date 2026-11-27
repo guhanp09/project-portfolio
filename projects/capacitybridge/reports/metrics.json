@@ -1,0 +1,194 @@
+{
+  "data_kind": "fully synthetic operational assumptions",
+  "fulfilment_centres": 6,
+  "waves": 2,
+  "stages": 3,
+  "carrier_modes": 2,
+  "distinct_cases": 120,
+  "policy_runs": 240,
+  "seed_values": 15,
+  "regimes": [
+    "BAU",
+    "peak"
+  ],
+  "risk_conditions": 4,
+  "maximum_demand_reconciliation_difference": 0,
+  "policies": [
+    {
+      "policy": "forecast_only",
+      "runs": 120,
+      "service_attainment": 0.8656358747149806,
+      "d0_attainment": 0.9910645609726838,
+      "mean_operating_cost_inr": 252036.75
+    },
+    {
+      "policy": "reserve_12pct",
+      "runs": 120,
+      "service_attainment": 0.9482372648103694,
+      "d0_attainment": 0.9910151646661163,
+      "mean_operating_cost_inr": 283042.0
+    }
+  ],
+  "conditions": [
+    {
+      "regime": "BAU",
+      "risk": "carrier_outage",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.9600456621004566,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 132400.8,
+      "p90_missed": 373.59999999999997
+    },
+    {
+      "regime": "BAU",
+      "risk": "carrier_outage",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.997170935080405,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 142267.6,
+      "p90_missed": 21.0
+    },
+    {
+      "regime": "BAU",
+      "risk": "demand_surge",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.8143217083614435,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 133740.0,
+      "p90_missed": 1241.3999999999999
+    },
+    {
+      "regime": "BAU",
+      "risk": "demand_surge",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.9126543762305351,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 149484.4,
+      "p90_missed": 754.4
+    },
+    {
+      "regime": "BAU",
+      "risk": "nominal",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.9600456621004566,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 132400.8,
+      "p90_missed": 373.59999999999997
+    },
+    {
+      "regime": "BAU",
+      "risk": "nominal",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.997170935080405,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 142267.6,
+      "p90_missed": 21.0
+    },
+    {
+      "regime": "BAU",
+      "risk": "packing_absence",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.8851168023294289,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 126966.0,
+      "p90_missed": 746.5999999999999
+    },
+    {
+      "regime": "BAU",
+      "risk": "packing_absence",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.9728509033154655,
+      "d0_attainment": 1.0,
+      "mean_operating_cost_inr": 140503.6,
+      "p90_missed": 268.79999999999995
+    },
+    {
+      "regime": "peak",
+      "risk": "carrier_outage",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.7883945108853239,
+      "d0_attainment": 0.9668044248041003,
+      "mean_operating_cost_inr": 355088.0,
+      "p90_missed": 3167.4
+    },
+    {
+      "regime": "peak",
+      "risk": "carrier_outage",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.9043724739480085,
+      "d0_attainment": 0.9668044248041003,
+      "mean_operating_cost_inr": 412986.0,
+      "p90_missed": 1819.8
+    },
+    {
+      "regime": "peak",
+      "risk": "demand_surge",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.8179623990009921,
+      "d0_attainment": 0.9882072842514293,
+      "mean_operating_cost_inr": 394076.0,
+      "p90_missed": 3403.0
+    },
+    {
+      "regime": "peak",
+      "risk": "demand_surge",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.9157259835834967,
+      "d0_attainment": 0.9879843294634753,
+      "mean_operating_cost_inr": 452678.0,
+      "p90_missed": 2063.0
+    },
+    {
+      "regime": "peak",
+      "risk": "nominal",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.9633881495245252,
+      "d0_attainment": 0.9994941444837888,
+      "mean_operating_cost_inr": 388270.4,
+      "p90_missed": 1001.3999999999999
+    },
+    {
+      "regime": "peak",
+      "risk": "nominal",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.9976211469385581,
+      "d0_attainment": 0.9994941444837888,
+      "mean_operating_cost_inr": 418828.4,
+      "p90_missed": 8.799999999999997
+    },
+    {
+      "regime": "peak",
+      "risk": "packing_absence",
+      "policy": "forecast_only",
+      "runs": 15,
+      "service_attainment": 0.8498304623377853,
+      "d0_attainment": 0.9994941444837888,
+      "mean_operating_cost_inr": 353352.0,
+      "p90_missed": 2474.4
+    },
+    {
+      "regime": "peak",
+      "risk": "packing_absence",
+      "policy": "reserve_12pct",
+      "runs": 15,
+      "service_attainment": 0.9531803845220694,
+      "d0_attainment": 0.9994941444837888,
+      "mean_operating_cost_inr": 405320.4,
+      "p90_missed": 1193.3999999999999
+    }
+  ]
+}

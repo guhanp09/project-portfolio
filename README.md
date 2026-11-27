@@ -2,6 +2,12 @@
 
 Runnable source, models, tests and documentation. Each repository describes its own scope and distinguishes simulations, synthetic data and reconstructed source from measured or original artifacts.
 
+## Supply chain and business planning
+
+**[Read the planning portfolio](planning-work.md)** for FC capacity, same-day promise constraints, inventory risk and financial planning.
+
+- **[CapacityBridge — FC Capacity and D0 Planning](projects/capacitybridge)** — Six-FC staffing and internal/3PL allocation; 120 synthetic demand/disruption cases, 240 policy runs, SQL reconciliation, an Excel workbook and a planning review. The reserve policy trades higher modelled service for higher operating cost.
+
 ## Product development and applied ML
 
 **[Read the product-work portfolio](product-work.md)** for the problems, implementation choices, measured evidence and next decisions behind the work.
